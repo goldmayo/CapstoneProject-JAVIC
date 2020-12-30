@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <title>JAVIC SERVICE</title>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" href="/static/css/test.css">
+        
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row m-0 p-0">
+                <div class="col-12 m-0 p-0 position-relative">
+                    <!-- chat header -->
+                    <div class="chatbot-header p-1 bg-light border border-top-0 border-left-0 border-right-0">
+                        <img class="rounded float-left" id="chatbot-icon"  src="/static/images/JAVIC_BLACK.jpg">
+                        <h6 class="float-left" id="chatbot-name"> JAVIC CHABOT
+                            <br>
+                            <small> Hello, what a nice day!</small>
+                        </h6>
+                    </div>
+                    <!-- chat body -->
+                    <div class="chatbot-body">
+                        <div class="chat-bg position-relative m-0 p-0">
+                            <div class="row m-0 p-0">
+                                <div class="col-12 m-0 p-2">
+                                    <div class="bot-response">
+                                        <a class="float-left">안녕하세요. 원하시는 메뉴를 선택해 주세요.</a><br>
+                                        <div class="row m-0 p-0">
+                                            <div class="col-6 m-0 p-2">
+                                                <button class="" type="sub" id="" onclick="">휴가 신청</button>
+                                            </div>
+                                            <div class="col-6 m-0 p-2">
+                                                <button class="" type="" id="" onclick="">메일 확인</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 m-0 p-2">
+                                    <div class="user-request">
+                                        <a class="float-right">안녕하세요.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- chat console -->
+                    <!-- border border-secondary border-bottom-0 border-right-0 border-left-0 -->
+                    <div class="quick-btn">
+                        <div class="row m-0 p-0">
+                            <div class="col-3 m-0 p-1">
+                                <button type="button" class="btn btn-outline-secondary rounded border w-100">메뉴</button>
+                            </div>
+                            <div class="col-3 m-0 p-1">
+                                <button type="button" class="btn btn-outline-secondary rounded border w-100">취소</button>
+                            </div>
+                            <div class="col-3 m-0 p-1">
+                                <button type="button" class="btn btn-outline-secondary rounded border w-100">새질문</button>
+                            </div>
+                            <div class="col-3 m-0 p-1">
+                                <button type="button" class="btn btn-outline-secondary rounded border w-100">종료</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="console">
+                        <div class="row m-0 p-0">
+                            <div class="col-9 m-0 p-1">
+                                <input type="text" id="user-input" class="mw-100 border rounded form-control" placeholder="Type a message..." required="">
+
+                            </div>
+                            <div class="col-3 m-0 p-1">
+                                <button type="button" class="btn btn-outline-secondary rounded border w-100" id="send-btn">
+                                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
