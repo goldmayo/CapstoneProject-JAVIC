@@ -7,8 +7,8 @@ export LANG=C.UTF-8
 export FN_AUTH_REDIRECT_URI=http://10.30.7.19.nip.io:7070/google/auth
 export FN_BASE_URI=http://10.30.7.19.nip.io:7070
 
-export FN_CLIENT_ID=365067364448-n2gpbjau00t965omkmbfo29nc0d42aes.apps.googleusercontent.com
-export FN_CLIENT_SECRET=87UZpmKTG1unGUaSdMOBLYD9
+export FN_CLIENT_ID=your_OAuth2.0_FN_CLIENT_ID
+export FN_CLIENT_SECRET=your_OAuth2.0_CLIENT_SECRET
 
 export FLASK_APP=app.py
 
