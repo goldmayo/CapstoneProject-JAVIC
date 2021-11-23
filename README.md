@@ -20,7 +20,14 @@
 
 ---
 
-## Project Function
+## Project Schedule
+
+<img src="/javic_server/javic_capture/scrum.PNG" width="px" height="px"></img>
+<img src="/javic_server/javic_capture/part.PNG" width="px" height="px"></img>
+
+---
+
+## Main Function
 
 <img src="/javic_server/javic_capture/docwrite.PNG" width="px" height="px"></img>
 
@@ -30,14 +37,7 @@
 
 ---
 
-## Project Scrum
-
-<img src="/javic_server/javic_capture/scrum.PNG" width="px" height="px"></img>
-<img src="/javic_server/javic_capture/part.PNG" width="px" height="px"></img>
-
----
-
-## run project
+## Run Project
 
 - Dependency install
 
