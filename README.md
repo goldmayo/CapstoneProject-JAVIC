@@ -1,43 +1,83 @@
-### JAVIC(Just A Very Intelligent Chatbot) 나이브베이즈 분류기
+# JAVIC
 
-[![capston_javic](https://res.cloudinary.com/marcomontalbano/image/upload/v1637514897/video_to_markdown/images/youtube--m3kJfnsywrk-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=m3kJfnsywrk "capston_javic")
+[![capston_javic](https://res.cloudinary.com/marcomontalbano/image/upload/v1637514897/video_to_markdown/images/youtube--m3kJfnsywrk-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=m3kJfnsywrk "javic youtube")
 
-```
+## Description
+
+##### JAVIC(Just A Very Intelligent Chatbot, 자빅)
+
+<img src="/javic_server/javic_capture/summary.PNG" width="px" height="px"></img>
+
+##### Naive Bayes model
+
+<img src="/javic_server/javic_capture/NB.PNG" width="px" height="px"></img>
+
+---
+
+## Project Architecture
+
+<img src="/javic_server/javic_capture/architecture.PNG" width="px" height="px"></img>
+
+---
+
+## Project Function
+
+<img src="/javic_server/javic_capture/docwrite.PNG" width="px" height="px"></img>
+
+<img src="/javic_server/javic_capture/mailcheck.PNG" width="px" height="px"></img>
+
+<img src="/javic_server/javic_capture/textsummary.PNG" width="px" height="px"></img>
+
+---
+
+## Project Scrum
+
+<img src="/javic_server/javic_capture/scrum.PNG" width="px" height="px"></img>
+<img src="/javic_server/javic_capture/part.PNG" width="px" height="px"></img>
+
+---
+
+## run project
+
+- Dependency install
+
+```{shell}
 pip3 install -r requirements.txt
 ```
 
-#### run project
+PulseSecure 실행
+핸디소프트(123.212.190.200)연결
 
-*PulseSecure실행
-*핸디소프트(123.212.190.200)연결
+handy_gw 디렉토리
 
-\*handy_gw 디렉토리
-
-```
-$> redis-server
+```{shell}
+ redis-server
 ```
 
-\*handy_api 서버 실행
+handy_api 서버 실행
 
-```
-$> python3 app.py
-```
-
-\*javic final 디렉토리
-
-```
-$> python3 app.py
+```{shell}
+ python3 app.py
 ```
 
-\*로그인 페이지
+javic_server 디렉토리
+
+```{shell}
+ python3 app.py
+```
+
+Login
 
 - ID : 현승재
 - PW : 1234
+
+---
 
 ### 변경점
 
 - my_logic_adapter
 - naive_bayes_model
+- chatterbot
 
 ### Docker 배포 완료
 
