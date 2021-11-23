@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hox local="false" type="draft" version="2.0">
+    <docInfo modification="yes">
+        <title>휴가신청서(김인영, 연차, 20200515~20200530, 16일)</title>
+        <enforceType>enforcetype_not</enforceType>
+        <viewRange>dept</viewRange>
+        <viewRestriction>none</viewRestriction>
+        <securityExpireDate>1970-01-01T09:00:00</securityExpireDate>
+		<formInfo>
+            <formID>JHOMS193170028328000</formID>
+        </formInfo>
+        <exchangeInfo>
+        </exchangeInfo>
+        <objectIDList>
+        </objectIDList>
+        <content>
+            <receiptInfo modification="yes">
+                <displayString />
+                <senderName />
+                <sendOrgName />
+                <senderID>000000000</senderID> 
+  				<senderDeptID>000000000</senderDeptID> 
+            <recipient><rec type="rectype_dept"><ID>500609344</ID></rec></recipient></receiptInfo>
+        </content>
+    </docInfo>
+    <approvalFlow modification="yes">
+    <participant><ID>004127302</ID><type>user</type><approvalType>user_approval</approvalType></participant></approvalFlow>
+	<pubShowInfo>
+	</pubShowInfo>
+</hox>

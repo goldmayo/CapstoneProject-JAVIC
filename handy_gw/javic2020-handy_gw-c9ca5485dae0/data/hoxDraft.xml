@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hox version="2.0" type="draft" local="false">
+    <docInfo modification="yes">
+        <title></title>
+        <enforceType>enforcetype_not</enforceType>
+        <viewRange>dept</viewRange>
+        <viewRestriction>none</viewRestriction>
+        <securityExpireDate>1970-01-01T09:00:00</securityExpireDate>
+		<formInfo>
+            <formID></formID>
+        </formInfo>
+        <exchangeInfo>
+        </exchangeInfo>
+        <objectIDList>
+        </objectIDList>
+        <content>
+            <receiptInfo modification="yes">
+                <displayString/>
+                <senderName/>
+                <sendOrgName/>
+                <senderID>000000000</senderID> 
+  				<senderDeptID>000000000</senderDeptID> 
+            </receiptInfo>
+        </content>
+    </docInfo>
+    <approvalFlow modification="yes">
+    </approvalFlow>
+	<pubShowInfo>
+	</pubShowInfo>
+</hox>
