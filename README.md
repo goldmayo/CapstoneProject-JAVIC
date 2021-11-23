@@ -1,4 +1,4 @@
-### javic 나이브베이즈 분류기
+### JAVIC(Just A Very Intelligent Chatbot) 나이브베이즈 분류기
 
 [![capston_javic](https://res.cloudinary.com/marcomontalbano/image/upload/v1637514897/video_to_markdown/images/youtube--m3kJfnsywrk-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=m3kJfnsywrk "capston_javic")
 
