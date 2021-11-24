@@ -4,13 +4,19 @@
 
 ### Description
 
-##### JAVIC(Just A Very Intelligent Chatbot, 자빅)
+#### JAVIC(Just A Very Intelligent Chatbot, 자빅)
 
 <img src="/javic_server/javic_capture/summary.PNG" width="px" height="px"></img>
 
 사내 그룹웨어와 연동하여 간단한 사내 문서 작성과 이메일의 확인 및 요약이 가능한 챗봇 웹앱입니다.
 
-##### 나이브 베이즈 분류 모델
+#### 개발 목적
+
+그룹웨어의 사내 문서 작성에 익숙하지 않은 신입 사원은 복잡한 절차와 인터페이스 때문에 휴가신청서와 같이 비교적 간단한 형식에 일부 내용만 변경하는 사내 문서 작성에 불편함을 느꼈습니다.
+
+챗봇의 단순한 인터페이스를 통해 외근 중에 혹은 자택에서도 간단히 사내 문서를 작성하여 신입 사원의 불편을 해소하는 것을 목표로 하였습니다.
+
+#### 나이브 베이즈 분류 모델
 
 <img src="/javic_server/javic_capture/NB.PNG" width="px" height="px"></img>
 
@@ -98,7 +104,7 @@ Login
 
 ### 변경점
 
-- 회사에서 발급된 vpn ID의 기간 만료로 인해 서비스 실행불가
+- **회사에서 발급된 vpn ID의 기간 만료로 인해 서비스 실행불가**
 
 ### Docker 배포 완료
 
