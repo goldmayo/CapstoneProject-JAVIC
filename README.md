@@ -75,7 +75,7 @@ pip3 install -r requirements.txt
 ```
 
 PulseSecure 실행
-핸디소프트(123.212.190.200)연결
+회사망 연결
 
 handy_gw 디렉토리
 
